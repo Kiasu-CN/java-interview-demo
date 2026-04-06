@@ -1,0 +1,22 @@
+# 编译产物
+target/
+out/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# 敏感配置
+*.env

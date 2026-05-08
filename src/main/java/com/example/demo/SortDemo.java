@@ -10,7 +10,7 @@ public class SortDemo {
         selectionSort(arr1);
         printArray(arr1);
 
-         //值传递：1.基本数据类型传递变量的副本，副本改变，实参的值不变
+        //值传递：1.基本数据类型传递变量的副本，副本改变，实参的值不变
         //  2.引用数据类型 传递引用的地址的副本，可以用过该地址改变引用的内容的值，但是不能通过改变地址副本的值改变实参的指向
         System.out.println("\n插入排序");
         int[] arr2 = arr.clone();
